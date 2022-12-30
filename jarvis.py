@@ -49,7 +49,7 @@ def takeCommand():
         
 
     except Exception as e:
-        print(e)    
+        # print(e)   
         speak("Say that again please...")   #Say that again will be printed in case of improper voice 
         return "None" #None string will be returned
     return query
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
         elif 'goodbye'in query:
             speak("good bye sir , and have a great day")
-        False
+            break
 
                 
 
